@@ -1,0 +1,29 @@
+/* Paste into MorBlogger Custom CSS to transform Label/Archive widgets into 2-column grids */
+.widget-content.list-label-widget-content ul,
+.sidebar ul.flat {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.widget-content.list-label-widget-content li a,
+.sidebar ul.flat li.archivedate {
+  display: block;
+  padding: 6px 8px;
+  background-color: var(--bg-elevated, #101111);
+  color: var(--fg-base, #aefeff);
+  text-decoration: none;
+  border: 1px solid var(--border-color, #00fff7);
+  border-radius: 4px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.widget-content.list-label-widget-content li a:hover,
+.sidebar ul.flat li.archivedate:hover {
+  background-color: var(--accent, #1b1c1c);
+  color: #ffffff;
+}

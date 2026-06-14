@@ -1,0 +1,39 @@
+<div class='header-container'>
+  <header class='header'>
+    
+    <div class='logo-container'>
+      <a aria-label="{{SITE_TITLE_ATTR}} homepage" class='branding-link home-page-link' href="{{SITE_HOME_URL_ATTR}}">
+        <img alt='{{SITE_TITLE_ATTR}} Logo' class='header-logo' src='{{HEADER_LOGO_URL_ATTR}}'/>
+      </a>
+    </div>
+
+    <div class='title-container'>
+        <a class='glowing-title' href='{{SITE_HOME_URL_ATTR}}'>{{SITE_TITLE}}</a>
+    </div>
+    
+    <div class='search-container'>
+      <div class='search-bar'>
+        <form action='{{SEARCH_ACTION_URL_ATTR}}' autocomplete='off' method='get' role='search'>
+          <input id='search-input' name='q' placeholder='Search' type='search'/>
+          <button class='search-bar-submit'>
+            <span class='material-icons'>search</span>
+          </button>
+        </form>
+      </div>
+    </div>
+    
+    <nav class='bell-container'>
+      <div class='notification-container'>
+          <span class='material-symbols-rounded bell-icon' onclick='document.querySelector(".dropdown-menu").classList.toggle("active")'>notifications</span>
+
+          <div class='dropdown-menu'>
+              <div class='widget-container'>
+                  <b:section class='widget NotificationWidget' id='notification-section' showaddelement='yes'>
+                  </b:section>
+              </div> 
+          </div> 
+      </div>
+    </nav>
+    
+  </header>
+</div>

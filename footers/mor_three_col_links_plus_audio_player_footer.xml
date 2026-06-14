@@ -1,0 +1,41 @@
+<footer class='footer-container'>
+  <div id='socket'>
+    <div class='container'>
+      <div class='footer-content'>
+
+        <div class='footer-column'>
+          <b:section class='footer-links-section' id='footer-col-1' showaddelement='yes'/>
+        </div>
+        
+        <div class='footer-column'>
+          <b:section class='footer-links-section' id='footer-col-2' showaddelement='yes'/>
+        </div>
+
+        <div class='footer-column'>
+          <b:section class='footer-links-section' id='footer-col-3' showaddelement='yes'/>
+        </div>
+
+        <div class='footer-column'>
+          <div class='copyright'>
+            &#169; <script type='text/javascript'>document.write(new Date().getFullYear());</script> {{SITE_TITLE}}<br/>
+            </div>
+        </div>
+
+      </div> 
+
+      <div class='back-to-top'>
+        <button id='back-to-top' onclick='window.scrollTo({top: 0, behavior: "smooth"});'>Back to Top</button>
+      </div>
+
+      <div id='music-footer-bar'>
+        <audio id='music-player'>
+          <source src='INSERT_MP3_URL_HERE' type='audio/mpeg'/>
+        </audio>
+        <button id='play-button' onclick='document.getElementById("music-player").play(); this.style.display="none"; document.getElementById("pause-button").style.display="inline-block";'>▶</button>
+        <button id='pause-button' style='display: none;' onclick='document.getElementById("music-player").pause(); this.style.display="none"; document.getElementById("play-button").style.display="inline-block";'>❚❚</button>
+        <span id='track-label'>Now Playing: Theme Music</span>
+      </div>
+
+    </div>
+  </div>
+</footer>
