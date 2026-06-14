@@ -1,0 +1,72 @@
+[
+  {
+    "id": "header_search_bell",
+    "type": "header",
+    "display_name": "Search + Notification Bell",
+    "description": "A glowing title, search bar, and a clickable bell that opens a native Blogger widget socket.",
+    "payload_url": "https://raw.githubusercontent.com/MoribundInstitute/mor-xml-compendium/main/headers/mor_search_plus_bell_header.xml"
+  },
+  {
+    "id": "header_gtk",
+    "type": "header",
+    "display_name": "GTK System Header",
+    "description": "A dense, desktop-application style headerbar simulating native Linux GTK environments.",
+    "payload_url": "https://raw.githubusercontent.com/MoribundInstitute/mor-xml-compendium/main/headers/gtk_headerbar.xml"
+  },
+  {
+    "id": "header_baseline",
+    "type": "header",
+    "display_name": "MorBlogger Baseline",
+    "description": "The standard two-row header with logo, theme toggle, and main navigation links.",
+    "payload_url": "https://raw.githubusercontent.com/MoribundInstitute/mor-xml-compendium/main/headers/mor_header_baseline.xml"
+  },
+  {
+    "id": "footer_audio_player",
+    "type": "footer",
+    "display_name": "3-Column Links + Audio Player",
+    "description": "Three vertical widget sockets for links, plus a persistent sticky audio player at the bottom of the viewport.",
+    "payload_url": "https://raw.githubusercontent.com/MoribundInstitute/mor-xml-compendium/main/footers/mor_three_col_links_plus_audio_player_footer.xml"
+  },
+  {
+    "id": "footer_basic",
+    "type": "footer",
+    "display_name": "Basic 4-Column Footer",
+    "description": "Standard 4-column footer for social links, resources, and tools.",
+    "payload_url": "https://raw.githubusercontent.com/MoribundInstitute/mor-xml-compendium/main/footers/MorFooterBasic.xml"
+  },
+  {
+    "id": "footer_compact",
+    "type": "footer",
+    "display_name": "Compact Minimal Footer",
+    "description": "A tiny, single-row footer containing only copyright and site title.",
+    "payload_url": "https://raw.githubusercontent.com/MoribundInstitute/mor-xml-compendium/main/footers/MorFooterCompact.xml"
+  },
+  {
+    "id": "footer_mega",
+    "type": "footer",
+    "display_name": "Mega Footer (6-Column)",
+    "description": "Massive 6-column directory footer for highly structured sites.",
+    "payload_url": "https://raw.githubusercontent.com/MoribundInstitute/mor-xml-compendium/main/footers/MorFooterMega.xml"
+  },
+  {
+    "id": "css_two_col_buttons",
+    "type": "css_snippet",
+    "display_name": "Grid Buttons (Labels/Archive)",
+    "description": "CSS override. Hijacks standard Blogger list widgets and forces them into a clean 2-column pill button grid.",
+    "payload_url": "https://raw.githubusercontent.com/MoribundInstitute/mor-xml-compendium/main/main_layouts/mor_two_column_button_grid_for_labels_and_archives.css"
+  },
+  {
+    "id": "layout_sidebars",
+    "type": "main_layout",
+    "display_name": "Standard Sidebars",
+    "description": "Classic 3-column layout. Left sidebar, main post stream in center, right sidebar.",
+    "payload_url": "https://raw.githubusercontent.com/MoribundInstitute/mor-xml-compendium/main/main_layouts/sidebars.xml"
+  },
+  {
+    "id": "layout_single_col",
+    "type": "main_layout",
+    "display_name": "Single Column (Distraction Free)",
+    "description": "Centered main content stream. No sidebars. Pure reading experience.",
+    "payload_url": "https://raw.githubusercontent.com/MoribundInstitute/mor-xml-compendium/main/main_layouts/single_column.xml"
+  }
+]
